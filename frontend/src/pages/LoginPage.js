@@ -6,10 +6,26 @@ import Login from "../components/Login";
 const LoginPage = () => {
   return (
     <div>
-      {/* Page Title Component */}
-      <PageTitle />
-      {/* Login Component */}
-      <Login />
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        {/* Page Title Component */}
+        <PageTitle />
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        {/* Login Component */}
+        <Login />
+      </div>
     </div>
   );
 };
