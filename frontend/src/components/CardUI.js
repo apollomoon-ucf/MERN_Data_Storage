@@ -91,11 +91,11 @@ function CardUI() {
         {" "}
         Search Card
       </button>
-      <br />
+      {/* <br /> */}
       <span id="cardSearchResult">{searchResults}</span>
       <p id="cardList">{cardList}</p>
-      <br />
-      <br />
+      {/* <br /> */}
+      {/* <br /> */}
       <input
         type="text"
         id="cardText"
