@@ -7,13 +7,36 @@ import CardUI from "../components/CardUI";
 const CardPage = () => {
   return (
     <div>
-                  
-      <PageTitle />
-                  
-      <LoggedInName />
-                  
-      <CardUI />
-              
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        {/* Page Title Component */}
+        <PageTitle />
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        {/* Login Component */}
+        <LoggedInName />
+      </div>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
+        {/* Login Component */}
+        <CardUI />
+      </div>
     </div>
   );
 };
